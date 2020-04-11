@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='Tracer'
+rootProject.name='kh-opentrace-android'
