@@ -135,6 +135,7 @@ class EnterPinFragment : Fragment() {
                             enterPinFragmentErrorMessage.visibility = View.VISIBLE
                         }
                     }.addOnFailureListener {
+                        CentralLog.e(TAG, "cause: ${it.message}");
                         CentralLog.d(TAG, "Invalid code")
                         var myParentFragment: UploadPageFragment =
                             (parentFragment as UploadPageFragment)

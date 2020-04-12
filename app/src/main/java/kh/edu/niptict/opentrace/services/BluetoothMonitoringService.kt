@@ -1,6 +1,7 @@
 package kh.edu.niptict.opentrace.services
 
 import android.Manifest
+import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.Service
@@ -14,6 +15,9 @@ import android.os.Build
 import android.os.Bundle
 import android.os.IBinder
 import android.os.PowerManager
+import android.widget.Toast
+import androidx.core.app.NotificationCompat
+import androidx.core.content.ContextCompat
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
@@ -21,6 +25,7 @@ import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.functions.FirebaseFunctions
 import kh.edu.niptict.opentrace.BuildConfig
 import kh.edu.niptict.opentrace.Preference
+import kh.edu.niptict.opentrace.R
 import kh.edu.niptict.opentrace.Utils
 import kh.edu.niptict.opentrace.bluetooth.BLEAdvertiser
 import kh.edu.niptict.opentrace.bluetooth.gatt.ACTION_RECEIVED_STATUS
@@ -642,6 +647,8 @@ class BluetoothMonitoringService : Service(), CoroutineScope {
                     "StreetPass received: $connRecord"
                 )
 
+                showStreatPassReceive(context, connRecord)
+
                 if (connRecord.msg.isNotEmpty()) {
                     val record = StreetPassRecord(
                         v = connRecord.version,
@@ -662,6 +669,36 @@ class BluetoothMonitoringService : Service(), CoroutineScope {
                     }
                 }
             }
+        }
+
+        private fun showStreatPassReceive(context: Context, connRecord : ConnectionRecord) {
+            val channellId = "StreetPass Received ID";
+            val channelName = "StreetPass Received";
+            val content = "StreetPass received: $connRecord";
+
+            // Android O requires a Notification Channel.
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                // Create the channel for the notification
+                val mChannel =
+                    NotificationChannel(channellId, channelName, NotificationManager.IMPORTANCE_LOW)
+                mChannel.enableLights(false)
+                mChannel.enableVibration(true)
+                mChannel.vibrationPattern = longArrayOf(0L)
+                // Set the Notification Channel for the Notification Manager.
+                mNotificationManager!!.createNotificationChannel(mChannel)
+            }
+
+            val builder = NotificationCompat.Builder(context, channellId)
+                .setContentTitle(channelName)
+                .setContentText(content)
+                .setSmallIcon(R.drawable.done)
+                .setStyle(NotificationCompat.BigTextStyle().bigText(content))
+                .setTicker("StreetPass Received")
+                .setWhen(System.currentTimeMillis())
+
+            val notification = builder.build()
+
+            mNotificationManager!!.notify(855212, notification);
         }
     }
 
