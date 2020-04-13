@@ -647,7 +647,7 @@ class BluetoothMonitoringService : Service(), CoroutineScope {
                     "StreetPass received: $connRecord"
                 )
 
-                showStreatPassReceive(context, connRecord)
+                showStreetPassReceive(context, connRecord)
 
                 if (connRecord.msg.isNotEmpty()) {
                     val record = StreetPassRecord(
@@ -671,7 +671,7 @@ class BluetoothMonitoringService : Service(), CoroutineScope {
             }
         }
 
-        private fun showStreatPassReceive(context: Context, connRecord : ConnectionRecord) {
+        private fun showStreetPassReceive(context: Context, connRecord : ConnectionRecord) {
             val channellId = "StreetPass Received ID";
             val channelName = "StreetPass Received";
             val content = "StreetPass received: $connRecord";

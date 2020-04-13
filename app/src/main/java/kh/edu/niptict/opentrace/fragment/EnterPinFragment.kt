@@ -40,7 +40,7 @@ import java.util.*
 import kotlin.collections.HashMap
 
 class EnterPinFragment : Fragment() {
-    private var TAG = "UploadFragment"
+    private var TAG = "EnterPinFragment"
 
     private var disposeObj: Disposable? = null
 

@@ -117,6 +117,8 @@ object TempIDManager {
             val result: HashMap<String, Any> = it.data as HashMap<String, Any>
             val tempIDs = result["tempIDs"]
 
+            CentralLog.i(TAG, "getTemporaryIDs(): " + tempIDs);
+
             val status = result["status"].toString()
             if (status.toLowerCase().contentEquals("success")) {
                 CentralLog.w(TAG, "Retrieved Temporary IDs from Server")
