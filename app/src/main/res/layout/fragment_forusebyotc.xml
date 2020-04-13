@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#383838"
-                android:text="For use by OTC"
+                android:text="For use by MoH"
                 android:textSize="32sp"
                 android:textFontWeight="600" />
 
@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="Use only if OTC contacts you"
+                android:text="Use only if MoH contacts you"
                 android:textSize="18sp"
                 android:textFontWeight="600" />
 
