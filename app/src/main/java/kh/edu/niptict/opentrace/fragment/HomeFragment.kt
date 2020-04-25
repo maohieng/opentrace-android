@@ -56,7 +56,10 @@ class HomeFragment : Fragment() {
             Observer { record ->
                 if (record != null) {
                     tv_last_update.visibility = View.VISIBLE
-                    tv_last_update.text = "Last updated: ${Utils.getTime(record.timestamp)}"
+                    tv_last_update.text = getString(
+                        R.string.last_updated,
+                        Utils.getTime(record.timestamp)
+                    )
                 }
             })
 

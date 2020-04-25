@@ -115,5 +115,6 @@
     <string name="peripheral">"គ្រឿងទូរស័ព្ទ"</string>
     <string name="verify">"ផ្ទៀងផ្ទាត់"</string>
     <string name="i_agree">"ខ្ញុំយល់ព្រម"</string>
+    <string name="last_updated">"បច្ចុប្បន្នភាពចុងក្រោយ: %s"</string>
 
 </resources>
