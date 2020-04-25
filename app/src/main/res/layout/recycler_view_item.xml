@@ -12,7 +12,7 @@
     android:paddingRight="8dp">
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:text="Payload:"
+        android:text="@string/payload"
         android:visibility="gone"
         android:textColor="@color/off_white"
         android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
             android:id="@+id/text_central"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Central"
+            android:text="@string/central"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="@id/modelc"
             app:layout_constraintRight_toRightOf="@id/modelc" />
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/text_central"
             app:layout_constraintLeft_toLeftOf="parent"
-            android:text="MODEL_C"
+            android:text="@string/model_c"
             android:textSize="16dp"
             android:textColor="@color/off_white" />
 
@@ -74,7 +74,7 @@
             android:id="@+id/text_peri"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Peripheral"
+            android:text="@string/peripheral"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="@id/modelp"
             app:layout_constraintRight_toRightOf="@id/modelp" />
@@ -83,7 +83,7 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/modelp"
             style="@style/word_title"
-            android:text="MODEL_P"
+            android:text="@string/model_p"
             android:textSize="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
             android:id="@+id/filter_by_modelc"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="ModelC"
+            android:text="@string/model_c"
             android:textSize="16dp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@id/filter_by_modelp"
@@ -154,7 +154,7 @@
             android:id="@+id/filter_by_modelp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="ModelP"
+            android:text="@string/model_p"
             android:textSize="16dp"
             app:layout_constraintLeft_toRightOf="@id/filter_by_modelc"
             app:layout_constraintRight_toRightOf="parent"

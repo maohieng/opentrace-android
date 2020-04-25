@@ -444,7 +444,7 @@
             android:id="@+id/tv_announcement"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="No news"
+            android:text="@string/no_news"
             android:textColor="@color/white"
             android:textSize="14sp"
             android:clickable="true"

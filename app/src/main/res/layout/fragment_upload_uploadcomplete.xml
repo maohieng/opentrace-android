@@ -40,7 +40,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textAlignment="center"
-                android:text="Your data has been uploaded to MoH" />
+                android:text="@string/your_data_uploaded" />
         </LinearLayout>
 
         <LinearLayout
@@ -82,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:textColor="@color/white"
-            android:text="Done"
+            android:text="@string/done"
             android:textStyle="normal"
             android:textAllCaps="false" />
     </LinearLayout>

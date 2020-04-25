@@ -89,4 +89,31 @@
 
     <string name="share_message">Join me in stopping the spread of COVID-19! Download OpenTraceKh. Go to: https://bluetrace.io</string>
     <string name="title_choose_language">Choose Your Language</string>
+    <string name="great">"Great!!!"</string>
+    <string name="used_if_official_contact">"Use only if MoH contacts you"</string>
+    <string name="help">"Help"</string>
+    <string name="no_news">"No news"</string>
+    <string name="your_code_expire">"Your code will expire in "</string>
+    <string name="read_our">"Read our "</string>
+    <string name="step_2">"STEP 2"</string>
+    <string name="step_1">"STEP 1"</string>
+    <string name="enter_pin">"Enter PIN to upload"</string>
+    <string name="invalid_pin">"Invalid PIN"</string>
+    <string name="tap_next_if">"Tap 'Next' only if a contact tracer tells you to do so"</string>
+    <string name="next">"Next"</string>
+    <string name="for_use_by">"For use by the health authority"</string>
+    <string name="upload_data_for_contact">"Upload data for contact tracing"</string>
+    <string name="your_data_uploaded">"Your data has been uploaded to the health authority"</string>
+    <string name="done">Done</string>
+    <string name="verification_code">"Verification code: "</string>
+    <string name="make_sure_code">"Make sure they give you a code that matches the one below."</string>
+    <string name="verify_contact_tracer">"Verify that the contact tracer is from MoH"</string>
+    <string name="payload">Payload</string>
+    <string name="central">Central</string>
+    <string name="model_c">MODEL_C</string>
+    <string name="model_p">MODEL_P</string>
+    <string name="peripheral">Peripheral</string>
+    <string name="verify">"Verify"</string>
+    <string name="i_agree">"I agree"</string>
+
 </resources>

@@ -1,6 +1,6 @@
 <resources>
-    <string name="see_connections">See connections</string>
-    <string name="stop">Stop</string>
+    <string name="see_connections">"ចូរមើលការភ្ជាប់បណ្ដាញ"</string>
+    <string name="stop">"ឈប់"</string>
     <string name="permission_location_rationale">Please allow Location Permissions - Google requires this for your phone to scan for another phone’s Bluetooth. We do not use or store your location.</string>
     <string name="permission_write_rationale">OpenTrace needs save files for logs (Debug builds only)</string>
     <string name="ble_not_supported">This device does not support BLE</string>
@@ -14,23 +14,23 @@
     <string name="tv_howitworks_explanation_1">"យើងប្រើសញ្ញាណប៊្លូធូសដើម្បីកំណត់ថាតើអ្នកនៅជិតអ្នកប្រើ OpenTraceKH ផ្សេងទៀតដែរឬទេ។"</string>
     <string name="tv_howitworks_explanation_2">"ទិន្នន័យនៃការនៅជិតនេះត្រូវបានអ៊ុីនគ្រីបនិងរក្សាទុកតែនៅក្នុងទូរស័ព្ទរបស់អ្នកប៉ុណ្ណោះ។"</string>
     <string name="tv_howitworks_explanation_3">"អាជ្ញាធរសុខាភិបាលនឹងស្វែងរកការព្រមព្រៀងរបស់អ្នកដើម្បីផ្ទុកទិន្នន័យនេះប្រសិនបើវាចាំបាច់សម្រាប់ការតាមដានទំនាក់ទំនងនៃជំងឺកូវីដ១៩។"</string>
-    <string name="mobile_number">Mobile number</string>
-    <string name="register_number">Register your mobile number</string>
-    <string name="register_number_details">We\'ll contact you if you had close contact with a COVID-19 case.</string>
+    <string name="mobile_number">"លេខទូរស័ព្ទដៃ"</string>
+    <string name="register_number">"ចុះឈ្មោះលេខទូរស័ព្ទដៃរបស់អ្នក"</string>
+    <string name="register_number_details">"យើងនឹងទាក់ទងអ្នកប្រសិនបើអ្នកបានទាក់ទងជិតស្និទ្ធជាមួយអ្នកសង្ស័យថា​មាន​ផ្ទុក​កូវីដ​១៩។"</string>
     <string name="register_number_family">"បង្កើតសម្រាប់គ្រួសារអ្នក? \nប្រើលេខរបស់ពួកគេជំនួសអ្នក។"</string>
     <string name="invalid_length">"តម្រូវការលេខកូដ ៨ ខ្ទង់"</string>
     <string name="invalid_number">"លេខទូរស័ព្ទមិនត្រឹមត្រូវ"</string>
 
     <string name="enter_otp">បញ្ចូលលេខកូដដែលត្រូវបានផ្ញើទៅ</string>
-    <string name="otp_sent">A 6-digit code has been sent to %s.</string>
+    <string name="otp_sent">"លេខកូដ ៦ ខ្ទង់​បានផ្ញើទៅកាន់​ %s."</string>
     <string name="resend_code"><u>"ផ្ញើលេខកូដឡើងវិញ"</u></string>
 
     <string name="setup_app_permission">"\ដំឡើងសិទ្ធិកម្មវិធី"</string>
     <string name="setup_app_permission_title">"ជ្រើសយក <b>បាទ/ចាស</b> នៅអេក្រង់ពីរបីបន្ទាប់ដើម្បីដំឡើង។"</string>
     <string name="bluetooth">"១. ប៊្លូធូស"</string>
     <string name="location_permissions">"២. ការជូនដំណឹងមកទូរស័ព្ទ"</string>
-    <string name="battery_optimiser_opt">3. Battery Optimiser</string>
-    <string name="notes">Android needs Location Permissions for Bluetooth to work. We don\'t have access to your physical location.</string>
+    <string name="battery_optimiser_opt">"៣. ឧបករណ៍ធ្វើឱ្យថាមពលថ្មប្រសើរ"</string>
+    <string name="notes">"Android ត្រូវការ​ការអនុញ្ញាតបើកទីតាំង​សម្រាប់​ប៊្លូធូស​ធ្វើការ។ យើង​មិនអាចចូលដំណើរការឧបករណ៍ទីតាំងរបស់អ្នកបានឡើយ។"</string>
     <string name="proceed">បន្ដ</string>
     <string name="continue_">បន្ដ</string>
     <string name="get_otp">"ទទួលយកលេខកូដ"</string>
@@ -41,52 +41,79 @@
     <string name="send_otp">"យើងនឹងផ្ញើលេខកូដសម្ងាត់មួយលើកទៅអ្នក។"</string>
 
     <string name="title_home">"ទំព័រដើម"</string>
-    <string name="title_upload">Upload</string>
-    <string name="title_help">Help</string>
+    <string name="title_upload">"បញ្ជូនទិន្នន័យ"</string>
+    <string name="title_help">"ជំនួយ"</string>
 
     <string name="how_to_help">"វិធីដែលអ្នកអាចជួយបញ្ឈប់ការរីករាលដាលនៃជំងឺកូវីដ១៩"</string>
-    <string name="help_action">Keep app open, and let it run in the background until the end of the outbreak</string>
+    <string name="help_action">"សូម​រក្សា​កម្មវិធី​អ្នក​បើក និង​អនុញ្ញាត​ឲ្យវា​ដំណើរការ​ពីខាងក្នុង​រហូត​ដល់​ការ​ឆ្លងរាតត្បាត​បញ្ចប់។"</string>
 
     <string name="app_permission_status">"ស្ថានភាពសិទ្ធិកម្មវិធី"</string>
     <string name="bluetooth_on">"ប៊្លូធូស៖ បើក"</string>
-    <string name="location_on">Location Permission: On</string>
-    <string name="battery_optimiser">Battery Optimisation: Off</string>
+    <string name="location_on">"ការអនុញ្ញាតទីតាង៖ បើក"</string>
+    <string name="battery_optimiser">"ការធ្វើ​ឲ្យ​ថ្ម​ប្រើសើរឡើង​៖ បិទ"</string>
     <string name="push_noti">"ការជូនដំណឹងមកទូរស័ព្ទ៖ បើក"</string>
     <string name="share_this_app">"ចែករំលែកកម្មវិធីនេះ"</string>
     <string name="ask_friend">"សុំមិត្ដភក្តិនិងក្រុមគ្រួសារជួយ"</string>
     <string name="help_us_identify">"ចូលរួមបញ្ឈប់ការរីករាលដាលនៃមេរោគដោយបើកការអនុញ្ញាតសិទ្ធិទាំងអស់"</string>
-    <string name="restart_app_setup">Complete app setup</string>
-    <string name="upload_data">Upload Data</string>
-    <string name="for_official_use">For use by contact tracers</string>
-    <string name="data_uploaded">Data has been uploaded to contact tracers</string>
-    <string name="upload_agreement">By uploading, you agree to share with MoH your OpenTraceKh proximity data for the past 21 days. <b>យើងមិនប្រមូលទីតាំងភូមិសាស្ត្រឬទិន្នន័យផ្ទាល់ខ្លួនទេ។</b></string>
-    <string name="enter_code">Enter Code</string>
-    <string name="submit">Submit</string>
-    <string name="open_location_setting">Application needs location permission in order to work. Do you want to enable location permission?</string>
-    <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
+    <string name="restart_app_setup">"បញ្ចប់ការ​ដំឡើង​កម្មវិធី"</string>
+    <string name="upload_data">"បញ្ជូនទិន្នន័យ"</string>
+    <string name="for_official_use">"សម្រាប់ប្រើ​ដោយ​អាជ្ញាធរសុខាភិបាល"</string>
+    <string name="data_uploaded">"ទិន្នន៍យ​បានផ្ញើ​រួចរាល់​ទៅ​កាន់​អាជ្ញាធរ​សុខាភិបាល"</string>
+    <string name="upload_agreement">"ដោយធ្វើការ​ផ្ញើ​ទិន្នន័យ អ្នក​ត្រូវ​យល់ព្រម​ថា​ចែករម្លែកជាមួយ​អាជ្ញាធរសុខាភិបាល​តាមរយៈ OpenTraceKh នូវ​ទិន្នន័យ​អ្នក​ក្បែរ​សម្រាប់​ ២១ ថ្ងៃ​ចុងក្រោយ។"<b>យើងមិនប្រមូលទីតាំងភូមិសាស្ត្រឬទិន្នន័យផ្ទាល់ខ្លួនទេ។</b></string>
+    <string name="enter_code">"បញ្ចូលលេខកូដ"</string>
+    <string name="submit">"បញ្ជូន"</string>
+    <string name="open_location_setting">"កម្មវិធី​ត្រូវការ​ការអនុញ្ញាតបើក​ទីតាំង​ដើម្បី​ឲ្យ​វា​ដំណើរការ។ តើ​អ្នក​ចង់​បើកដំណើរការការអនុញ្ញាត​ទីតាំងទេ?"</string>
+    <string name="ok">"យល់ព្រម"</string>
+    <string name="cancel">"បោះបង់"</string>
     <string name="setup_incomplete">"ការរៀបចំគឺមិនពេញលេញទេ!"</string>
     <string name="ack_title">"ការព្រមព្រៀងរបស់អ្នកគឺចាំបាច់សម្រាប់ចំណុចដូចខាងក្រោម៖"</string>
     <string name="ack_mobile">"ដើម្បីរក្សាទុកលេខទូរស័ព្ទរបស់អ្នកក្នុងបញ្ជីឈ្មោះ OpenTraceKH ដែលមានសុវត្ថិភាព"</string>
     <string name="ack_data">"ដើម្បីអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ OpenTraceKH ផ្ញើព័ត៌មានអំពីការជួបប្រទះជាមួយអ្នកទៅកាន់អាជ្ញាធរសុខាភិបាលប្រសិនបើពួកគេត្រូវបានបញ្ជាក់ឬសង្ស័យថាមានជំងឺកូវីដ១៩"</string>
-    <string name="otp">Please enter the OTP sent to your mobile phone via sms</string>
-    <string name="keep_push_on">Keep push notifications on too, so we can alert you if the app is not scanning.</string>
-    <string name="verification_failed">Verification failed. Please try again</string>
+    <string name="otp">"សូម​បញ្ចូល​លេខសម្ងាត់​ម្ដង ដែល​បាន​ផ្ញើ​ទៅ​កាន់​លេខទូរស័ព្ទ​ដៃ​របស់​អ្នក​តាមរយៈសារ"</string>
+    <string name="keep_push_on">"បន្ដ​បើក​ការទទួលដំណឹង​ផងដែរ អញ្ចឹងទើប​យើង​អាចដាស់តឿន​អ្នក​ប្រសិន​បើ​កម្មវិធី​មិន​បាន​ធ្វើការស្កេន។​​"</string>
+    <string name="verification_failed">"ការផ្ទៀងផ្ទាត់បរាជ័យ។ សូមព្យាយាម​ម្ដងទៀត។"</string>
     <string name="invalid_otp">"បញ្ចូលលេខកូដខុស"</string>
-    <string name="unknown_error">An error has occurred. Please try again</string>
-    <string name="must_be_six_digit">Must be a 6-digit number</string>
-    <string name="invalid_user">Your account has been disabled. Please contact support.</string>
-    <string name="too_many_requests">Too many requests. Please try again later.</string>
+    <string name="unknown_error">"មានកំហុសមួយបានកើតឡើង។ សូមព្យាយាម​ម្ដងទៀត។"</string>
+    <string name="must_be_six_digit">"ត្រូវតែជា​លេខងកូដ​ ៦ ខ្ទង់"</string>
+    <string name="invalid_user">"គណនី​របស់អ្នក​ត្រូវបានបញ្ឈប់។ សូម​ទាក់ទង​មកកាន់​យើងខ្ញុំ។"</string>
+    <string name="too_many_requests">"សំណើរច្រើនពេក។ សូមព្យាយាម​ម្ដងទៀត។"</string>
 
     <string name="privacy_safeguards"><u>"ការការពារភាពឯកជន"</u></string>
 
-    <string name="service_ok_title">OpenTraceKh is scanning to keep you safe! :)</string>
-    <string name="service_ok_body">Restart phone if this notification disappears</string>
+    <string name="service_ok_title">"OpenTraceKh កំពុងស្កេន​ដើម្បីឲ្យ​អ្នក​មានសុវត្ថិភាព! :)"</string>
+    <string name="service_ok_body">"ចាប់ផ្ដើម​បិទ​-បើកទូរស័ព្ទ​អ្នក​ឡើងវិញ​បើការជូនដំណឹងបានបាត់។"</string>
 
-    <string name="service_not_ok_title">Oh no! :(</string>
+    <string name="service_not_ok_title">"យើងមិនអាចធ្វើការស្កេនបានទេ! :("</string>
     <string name="service_not_ok_body">"OpenTraceKh មិនកំពុងធ្វើ​ការស្កេនទេ។"</string>
-    <string name="service_not_ok_action">Check app now</string>
+    <string name="service_not_ok_action">"សូម​បើក​កម្មវិធី​ឥឡូវនេះ"</string>
 
     <string name="share_message">ចូលរួមជាមួយយើងខ្ញុំក្នុងការបញ្ឈប់ការរីករាលដាលនៃជំងឺកូវីដ១៩! ទាញយក OpenTraceKH!</string>
-    <string name="title_choose_language">Choose Your Language</string>
+    <string name="title_choose_language">"ជ្រើសរើសភាសា"</string>
+    <string name="great">"អស្ចារ្យណាស់!!!"</string>
+    <string name="used_if_official_contact">"សម្រាប់តែ​ប្រើ​នៅពេល​អាជ្ញាធរសុខាភិបាល​ទាក់ទងអ្នក"</string>
+    <string name="help">"ជំនួយ"</string>
+    <string name="no_news">"មិនមានដំណឹង"</string>
+    <string name="your_code_expire">"កូដ​របស់​អ្នក​នឹង​ផុត​កំណត់​នៅ​ក្នុង "</string>
+    <string name="read_our">"សូមអាន "</string>
+    <string name="step_2">"ជំហាន 2"</string>
+    <string name="step_1">"ជំហាន 1"</string>
+    <string name="enter_pin">"បញ្ចូលលេខកូដសម្ងាត់ដើម្បីបញ្ជូន"</string>
+    <string name="invalid_pin">"លេខកូដសម្ងាត់មិនត្រឹមត្រូវ"</string>
+    <string name="tap_next_if">"ចុច 'បន្ទាប់' លុះត្រាតែអ្នកតាមដានទំនាក់ទំនងប្រាប់អ្នកឱ្យធ្វើ"</string>
+    <string name="next">"បន្ទាប់"</string>
+    <string name="for_use_by">"សម្រាប់ការប្រើប្រាស់ដោយអាជ្ញាធរសុខាភិបាល"</string>
+    <string name="upload_data_for_contact">"បញ្ជូនទិន្នន័យសម្រាប់តាមដានទំនាក់ទំនង"</string>
+    <string name="your_data_uploaded">"ទិន្នន័យរបស់អ្នកត្រូវបានបញ្ជូនកាន់ទៅអាជ្ញាធរសុខាភិបាល"</string>
+    <string name="done">"រួចរាល់"</string>
+    <string name="verification_code">"លេខកូដផ្ទៀងផ្ទាត់៖ "</string>
+    <string name="make_sure_code">"សូមឲ្យច្បាស់​ថា​គេ​បាន​ឲ្យ​លេខកូដ​មួយ​ដែល​ត្រូវ​នឹងលេខ​កូដ​ខាងក្រោម​មួយនេះ។"</string>
+    <string name="verify_contact_tracer">"ផ្ទៀងផ្ទាត់​ឲ្យច្បាស់​ថា​អ្នក​តាមដានគឺ​មកពី​អាជ្ញាធរសុខាភិបាល"</string>
+    <string name="payload">"បន្ទុក"</string>
+    <string name="central">"កណ្តាល"</string>
+    <string name="model_c">MODEL_C</string>
+    <string name="model_p">MODEL_P</string>
+    <string name="peripheral">"គ្រឿងទូរស័ព្ទ"</string>
+    <string name="verify">"ផ្ទៀងផ្ទាត់"</string>
+    <string name="i_agree">"ខ្ញុំយល់ព្រម"</string>
+
 </resources>

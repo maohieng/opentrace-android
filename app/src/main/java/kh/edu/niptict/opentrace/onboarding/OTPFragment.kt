@@ -53,7 +53,7 @@ class OTPFragment : OnboardingFragmentInterface() {
         stopWatch?.cancel()
     }
 
-    override fun getButtonText(): String = "Verify"
+    override fun getButtonText(): String = requireContext().getString(R.string.verify)
 
     override fun becomesVisible() {}
 

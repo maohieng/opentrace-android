@@ -67,6 +67,7 @@
             android:layout_height="match_parent"
             app:ccp_defaultNameCode="KH"
             app:ccp_countryPreference="KH"
+            app:ccp_clickable="false"
             app:ccp_showNameCode="false"
             app:ccp_showFullName="false"
             app:ccp_textSize="20sp"
@@ -94,7 +95,7 @@
             android:id="@+id/phone_number_error"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Phone number invalid"
+            android:text="@string/invalid_number"
             android:textAlignment="textStart"
             android:textColor="@color/error"
             android:visibility="invisible"
@@ -120,7 +121,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent">
-
         <include layout="@layout/button_and_progress" />
     </FrameLayout>
 

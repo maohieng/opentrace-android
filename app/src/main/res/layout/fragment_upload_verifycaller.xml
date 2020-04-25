@@ -30,7 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
-                android:text="STEP 1" />
+                android:text="@string/step_1" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:textSize="18sp"
@@ -38,14 +38,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="Verify that the contact tracer is from MoH" />
+                android:text="@string/verify_contact_tracer" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:textSize="15sp"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Make sure they give you a code that matches the one below." />
+                android:text="@string/make_sure_code" />
         </LinearLayout>
 
         <LinearLayout
@@ -66,7 +66,7 @@
                     android:textSize="17sp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Verification code: " />
+                    android:text="@string/verification_code" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/verifyCallerFragmentVerificationCode"
@@ -74,7 +74,7 @@
                     android:textSize="17sp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="JDEPLC" />
+                    tools:text="JDEPLC" />
             </LinearLayout>
         </LinearLayout>
 
@@ -95,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:textColor="@color/white"
-            android:text="Next"
+            android:text="@string/next"
             android:fontFamily="@font/font"
             android:textFontWeight="600"
             android:textSize="18sp"

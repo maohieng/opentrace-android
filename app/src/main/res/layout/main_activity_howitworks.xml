@@ -83,7 +83,7 @@
         android:textFontWeight="600"
         android:fontFamily="@font/font"
         android:textSize="18sp"
-        android:text="Great!!!"
+        android:text="@string/great"
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

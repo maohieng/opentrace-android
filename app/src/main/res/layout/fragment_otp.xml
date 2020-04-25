@@ -65,8 +65,7 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
-                android:text="Mobile number"
+                android:text="@string/mobile_number"
                 android:textColor="#383838"
                 android:textSize="20dp"
                 android:textStyle="bold"
@@ -118,8 +117,7 @@
                 <androidx.appcompat.widget.AppCompatTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
-                    android:text="Your code will expire in "
+                    android:text="@string/your_code_expire"
                     android:textColor="#505050"
                     android:textSize="20dp" />
 
@@ -127,7 +125,6 @@
                     android:id="@+id/timer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     android:text="1:59"
                     android:textColor="#505050"
                     android:textSize="20dp"
