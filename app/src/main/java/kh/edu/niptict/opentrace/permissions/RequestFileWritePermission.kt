@@ -2,13 +2,13 @@ package kh.edu.niptict.opentrace.permissions
 
 import android.Manifest
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import kh.edu.niptict.opentrace.BaseLanguageActivity
 import kh.edu.niptict.opentrace.R
 import kh.edu.niptict.opentrace.Utils
 import pub.devrel.easypermissions.AfterPermissionGranted
 import pub.devrel.easypermissions.EasyPermissions
 
-class RequestFileWritePermission : AppCompatActivity() {
+class RequestFileWritePermission : BaseLanguageActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

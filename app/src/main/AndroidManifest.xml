@@ -107,6 +107,10 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.DebugNoActionBar" />
 
+        <activity
+            android:name=".SelectLanguageActivity"
+            android:theme="@style/AppTheme.DebugNoActionBar" />
+
         <receiver android:name=".receivers.UpgradeReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />

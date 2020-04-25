@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.util.Log
 import android.webkit.WebViewClient
 import androidx.annotation.RequiresApi
-import androidx.appcompat.app.AppCompatActivity
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.functions.BiFunction
@@ -20,7 +19,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.Comparator
 
-class PlotActivity : AppCompatActivity() {
+class PlotActivity : BaseLanguageActivity() {
     private var TAG = "PlotActivity"
 
     @RequiresApi(Build.VERSION_CODES.O)

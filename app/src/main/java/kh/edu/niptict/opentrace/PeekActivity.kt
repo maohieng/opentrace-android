@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -19,7 +18,7 @@ import kh.edu.niptict.opentrace.streetpass.view.RecordViewModel
 import kotlinx.android.synthetic.main.database_peek.*
 
 
-class PeekActivity : AppCompatActivity() {
+class PeekActivity : BaseLanguageActivity() {
 
     private lateinit var viewModel: RecordViewModel
 

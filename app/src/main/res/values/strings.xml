@@ -88,4 +88,5 @@
     <string name="service_not_ok_action">Check app now</string>
 
     <string name="share_message">Join me in stopping the spread of COVID-19! Download OpenTraceKh. Go to: https://bluetrace.io</string>
+    <string name="title_choose_language">Choose Your Language</string>
 </resources>

@@ -65,15 +65,13 @@
             android:id="@+id/country_code"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-
-            app:ccp_defaultNameCode="SG"
-            app:ccp_countryPreference="SG"
+            app:ccp_defaultNameCode="KH"
+            app:ccp_countryPreference="KH"
             app:ccp_showNameCode="false"
             app:ccp_showFullName="false"
             app:ccp_textSize="20sp"
             app:ccp_rememberLastSelection="true"
             app:ccp_flagBorderColor="#505050"
-
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="@id/phone_number"
             app:layout_constraintBottom_toBottomOf="@id/phone_number" />
@@ -83,7 +81,6 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:drawableBottom="#b0b0b0"
-
             android:imeOptions="actionGo"
             android:inputType="phone"
             android:maxEms="8"

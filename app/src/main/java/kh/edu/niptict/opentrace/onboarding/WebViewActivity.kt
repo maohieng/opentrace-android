@@ -4,13 +4,13 @@ import android.os.Bundle
 import android.webkit.WebChromeClient
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import androidx.fragment.app.FragmentActivity
+import kh.edu.niptict.opentrace.BaseLanguageActivity
 import kh.edu.niptict.opentrace.BuildConfig
 import kh.edu.niptict.opentrace.R
 import kh.edu.niptict.opentrace.logging.CentralLog
 import kotlinx.android.synthetic.main.webview.*
 
-class WebViewActivity : FragmentActivity() {
+class WebViewActivity : BaseLanguageActivity() {
 
     private val TAG = "WebViewActivity"
 

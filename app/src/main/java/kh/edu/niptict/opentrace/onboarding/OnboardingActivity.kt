@@ -18,7 +18,6 @@ import android.provider.Settings
 import android.text.TextUtils
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.viewpager.widget.ViewPager
@@ -28,10 +27,8 @@ import com.google.firebase.FirebaseTooManyRequestsException
 import com.google.firebase.auth.*
 import com.google.firebase.functions.FirebaseFunctions
 import com.google.firebase.functions.HttpsCallableResult
-import kh.edu.niptict.opentrace.BuildConfig
-import kh.edu.niptict.opentrace.Preference
+import kh.edu.niptict.opentrace.*
 import kh.edu.niptict.opentrace.R
-import kh.edu.niptict.opentrace.Utils
 import kh.edu.niptict.opentrace.idmanager.TempIDManager
 import kh.edu.niptict.opentrace.logging.CentralLog
 import kh.edu.niptict.opentrace.services.BluetoothMonitoringService
@@ -45,7 +42,7 @@ private const val REQUEST_ENABLE_BT = 123
 private const val PERMISSION_REQUEST_ACCESS_LOCATION = 456
 private const val BATTERY_OPTIMISER = 789
 
-class OnboardingActivity : FragmentActivity(),
+class OnboardingActivity : BaseLanguageActivity(),
     SetupFragment.OnFragmentInteractionListener,
     SetupCompleteFragment.OnFragmentInteractionListener,
     RegisterNumberFragment.OnFragmentInteractionListener,

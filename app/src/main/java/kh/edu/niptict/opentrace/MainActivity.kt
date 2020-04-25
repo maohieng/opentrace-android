@@ -4,7 +4,6 @@ import android.app.ActivityManager
 import android.content.Context
 import android.os.Bundle
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -14,7 +13,7 @@ import kh.edu.niptict.opentrace.fragment.HomeFragment
 import kh.edu.niptict.opentrace.logging.CentralLog
 import kotlinx.android.synthetic.main.activity_main_new.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseLanguageActivity() {
 
     private val TAG = "MainActivity"
 

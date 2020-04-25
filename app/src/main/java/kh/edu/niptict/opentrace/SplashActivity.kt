@@ -1,13 +1,18 @@
 package kh.edu.niptict.opentrace
 
+import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
+import com.yariksoffice.lingver.Lingver
+import kh.edu.niptict.opentrace.logging.CentralLog
 import kh.edu.niptict.opentrace.onboarding.PreOnboardingActivity
 
 class SplashActivity : AppCompatActivity() {
+
+    private val TAG = "SplashActivity";
 
     private val SPLASH_TIME: Long = 2000
     var needToUpdateApp = false
@@ -53,10 +58,23 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun goToNextScreen() {
-        if (!Preference.isOnBoarded(this)) {
-            startActivity(Intent(this, PreOnboardingActivity::class.java))
+        val locale = Lingver.getInstance().getLocale();
+        CentralLog.i(TAG, "App language: $locale")
+        if (locale != Languages.UNDEFINED) {
+            TracerApp.CURRENT_LANGUAGE = locale;
+            goNext(this)
         } else {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, SelectLanguageActivity::class.java))
+        }
+    }
+
+    companion object {
+        fun goNext(activity: Activity) {
+            if (!Preference.isOnBoarded(activity)) {
+                activity.startActivity(Intent(activity, PreOnboardingActivity::class.java))
+            } else {
+                activity.startActivity(Intent(activity, MainActivity::class.java))
+            }
         }
     }
 }

@@ -1,0 +1,5 @@
+<resources>
+    <string name="language_khmer" translatable="false">ខ្មែរ</string>
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_china" translatable="false">中国</string>
+</resources>

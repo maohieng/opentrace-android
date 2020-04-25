@@ -189,4 +189,7 @@ dependencies {
     //Lottie
     implementation 'com.airbnb.android:lottie:3.4.0'
 
+    //Lingver-manage your application locale and language
+    implementation "com.github.YarikSOffice:lingver:1.2.2"
+
 }
